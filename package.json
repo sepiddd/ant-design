@@ -72,7 +72,8 @@
     "test-all": "./scripts/test-all.sh",
     "test-node": "jest --config .jest.node.js --no-cache",
     "tsc": "tsc",
-    "site:test": "jest --config .jest.site.js --cache=false"
+    "site:test": "jest --config .jest.site.js --cache=false",
+    "build": "tsc"
   },
   "husky": {
     "hooks": {
